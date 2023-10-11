@@ -16,10 +16,9 @@ import { NgApexchartsModule } from 'ng-apexcharts';
     MasterUploadComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgChartsModule,
-    NgApexchartsModule
+    MasterUploadComponent,
+    DemoChartComponent,
+    MasterUploadComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
